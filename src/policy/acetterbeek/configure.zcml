@@ -1,0 +1,31 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="policy.acetterbeek">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="policy.acetterbeek"
+      directory="profiles/default"
+      description="Installs the policy.acetterbeek package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  <!-- -*- extra stuff goes here -*- -->
+    <include package="Products.LinguaPlone" />
+    <include package="webcouturier.dropdownmenu"/>
+    <include package="products.geoloc"/>
+    <include package="collective.quickupload" />
+    <include package="collective.contentstats" />
+    <include package="Products.PloneFormGen" />
+    <include package="quintagroup.analytics" />
+    <include package="collective.easyslider" />
+    <include package="collective.js.galleriffic" />
+    <include package="Solgema.fullcalendar" />
+    <include package="collective.ckeditor" />
+    <include package="collective.gallery" />
+    <include package="plonetheme.acetterbeek" />  
+</configure>
