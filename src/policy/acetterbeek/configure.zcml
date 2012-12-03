@@ -28,4 +28,13 @@
     <include package="collective.ckeditor" />
     <include package="collective.gallery" />
     <include package="plonetheme.acetterbeek" />  
+
+ <genericsetup:upgradeStep
+        title="Clean js and css"
+        description=""
+        source="0001"
+        destination="0002"
+        handler="policy.acetterbeek.upgrades.cleanjscss"
+        sortkey="1"
+        profile="policy.acetterbeek:default"/>
 </configure>

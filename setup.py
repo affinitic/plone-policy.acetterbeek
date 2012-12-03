@@ -49,6 +49,7 @@ setup(name='policy.acetterbeek',
             'collective.gallery',
             'plonetheme.acetterbeek',
             'plone.app.ldap',
+            'zest.commentcleanup',
             ],
         extras_require={'test': ['plone.app.testing']},
         entry_points="""
