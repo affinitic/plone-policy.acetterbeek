@@ -50,6 +50,7 @@ setup(name='policy.acetterbeek',
             'plonetheme.acetterbeek',
             'plone.app.ldap',
             'zest.commentcleanup',
+            'cirb.zopemonitoring',
             ],
         extras_require={'test': ['plone.app.testing']},
         entry_points="""
