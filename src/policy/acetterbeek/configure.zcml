@@ -27,7 +27,8 @@
     <include package="Solgema.fullcalendar" />
     <include package="collective.ckeditor" />
     <include package="collective.gallery" />
-    <include package="plonetheme.acetterbeek" />  
+    <include package="plonetheme.acetterbeek" /> 
+    <include package="cirb.zopemonitoring" />
 
  <genericsetup:upgradeStep
         title="Clean js and css"
