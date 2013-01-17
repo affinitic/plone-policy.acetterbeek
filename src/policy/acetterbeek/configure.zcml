@@ -29,7 +29,8 @@
     <include package="collective.gallery" />
     <include package="collective.anysurfer" />
     <include package="collective.videoanysurfer" />
-    <include package="plonetheme.acetterbeek" />  
+    <include package="plonetheme.acetterbeek" /> 
+    <include package="cirb.zopemonitoring" />
 
  <genericsetup:upgradeStep
         title="Clean js and css"
