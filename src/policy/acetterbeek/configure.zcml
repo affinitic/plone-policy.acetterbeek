@@ -27,6 +27,7 @@
     <include package="Solgema.fullcalendar" />
     <include package="collective.ckeditor" />
     <include package="collective.gallery" />
+    <include package="collective.galleria" />
     <include package="collective.anysurfer" />
     <include package="collective.videoanysurfer" />
     <include package="plonetheme.acetterbeek" /> 
