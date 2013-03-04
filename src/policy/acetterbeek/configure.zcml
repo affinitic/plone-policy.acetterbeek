@@ -23,6 +23,7 @@
     <include package="Products.PloneFormGen" />
     <include package="quintagroup.analytics" />
     <include package="collective.easyslider" />
+    <include package="collective.galleriffic" />
     <include package="collective.js.galleriffic" />
     <include package="Solgema.fullcalendar" />
     <include package="collective.ckeditor" />
