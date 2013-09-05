@@ -33,6 +33,7 @@
     <include package="collective.videoanysurfer" />
     <include package="plonetheme.acetterbeek" /> 
     <include package="cirb.zopemonitoring" />
+    <include package="collective.checktranslated" />
 
  <genericsetup:upgradeStep
         title="Clean js and css"
