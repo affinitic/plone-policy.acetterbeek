@@ -4,7 +4,7 @@ Changelog
 1.0.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add dependency on collective.z3cform.norobot; captcha for anonymous comments.
 
 
 1.0.8 (2013-09-05)
