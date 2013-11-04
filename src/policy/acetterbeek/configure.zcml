@@ -31,6 +31,7 @@
     <include package="collective.galleria" />
     <include package="collective.anysurfer" />
     <include package="collective.videoanysurfer" />
+    <include package="collective.z3cform.norobots" />
     <include package="plonetheme.acetterbeek" /> 
     <include package="cirb.zopemonitoring" />
     <include package="collective.checktranslated" />
