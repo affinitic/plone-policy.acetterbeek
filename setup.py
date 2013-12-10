@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 import os
 
@@ -58,6 +59,7 @@ setup(name='policy.acetterbeek',
             'plone.app.ldap',
             'zest.commentcleanup',
             'cirb.zopemonitoring',
+            'plone.app.discution',
             ],
         extras_require={'test': ['plone.app.testing']},
         entry_points="""
