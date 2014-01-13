@@ -16,5 +16,6 @@
 	<dependency>profile-collective.gallery:default</dependency>
 	<dependency>profile-collective.anysurfer:default</dependency>
 	<dependency>profile-plonetheme.acetterbeek:default</dependency>
+	<dependency>profile-collective.z3cform.norobots:default</dependency>
    </dependencies>
 </metadata>

@@ -6,9 +6,6 @@ from zope.site.hooks import getSite
 def cleanjscss(context):
     """ upgrade steps etterbeek """
     log = logging.getLogger("Policy Etterbeek upgrade step")
-    #portal_migration = getToolByName(context, 'portal_migration')
-    #portal_migration.upgrade()
-    #log.info("Ran Plone Upgrade")
     registry = context.getImportStepRegistry()
     old_steps = ["quintagroup.plonecomments.install",
             "quintagroup.plonecomments.uninstall",
@@ -31,9 +28,7 @@ def cleanjscss(context):
             context._p_changed = True
             log.info("Old %s import step removed from import registry.",
                     old_step)
-    clean_me = ['IThemeSpecific']
-    context.runAllImportStepsFromProfile("profile-policy.acetterbeek:default")
-
+    
     adapters = getSite().getSiteManager().adapters._adapters
     # 'IThemeSpecific' from module 'acetterbeek.site.browser.interfaces
     for adapter in adapters:
@@ -49,8 +44,3 @@ def cleanjscss(context):
     getSite().getSiteManager().adapters._adapters = adapters
     context._p_jar.sync()
     log.info("End upgrade policy etterbeek")
-    # OFS.Uninstalled Could not import class 'ATFlashMovie' from module 'Products.ATFlashMovie.ATFlashMovie'
-    # WARNING OFS.Uninstalled Could not import class 'Quicklinks' from module 'acetterbeek.site.browser.viewlets'
-    # WARNING OFS.Uninstalled Could not import class 'FooterViewlet' from module 'acetterbeek.site.browser.viewlets'
-    # WARNING OFS.Uninstalled Could not import class 'LanguageSelector' from module 'acetterbeek.site.browser.viewlets'
-

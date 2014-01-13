@@ -44,4 +44,18 @@
         handler="policy.acetterbeek.upgrades.cleanjscss"
         sortkey="1"
         profile="policy.acetterbeek:default"/>
+
+ <genericsetup:upgradeSteps
+        source="0002"
+        destination="0003"
+        profile="policy.acetterbeek:default">
+        <genericsetup:upgradeDepends
+          title="Install collective.z3cform.norobots"
+          import_profile="collective.z3cform.norobots:default"
+          />
+        <genericsetup:upgradeDepends
+          title="Configure discussion"
+          import_steps="plone.app.registry typeinfo workflow"
+          /> 
+</genericsetup:upgradeSteps>
 </configure>
