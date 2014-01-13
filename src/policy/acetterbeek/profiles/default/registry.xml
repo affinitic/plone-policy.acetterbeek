@@ -1,0 +1,17 @@
+<registry>
+  <record name="plone.app.discussion.interfaces.IDiscussionSettings.anonymous_comments" interface="plone.app.discussion.interfaces.IDiscussionSettings" field="anonymous_comments">
+    <value>True</value>
+  </record>
+  <record name="plone.app.discussion.interfaces.IDiscussionSettings.anonymous_email_enabled" interface="plone.app.discussion.interfaces.IDiscussionSettings" field="anonymous_email_enabled">
+    <value>True</value>
+  </record>
+  <record name="plone.app.discussion.interfaces.IDiscussionSettings.captcha" interface="plone.app.discussion.interfaces.IDiscussionSettings" field="captcha">
+    <value>norobots</value>
+  </record>
+  <record name="plone.app.discussion.interfaces.IDiscussionSettings.globally_enabled" interface="plone.app.discussion.interfaces.IDiscussionSettings" field="globally_enabled">
+    <value>True</value>
+  </record>
+  <record name="plone.app.discussion.interfaces.IDiscussionSettings.moderation_enabled" interface="plone.app.discussion.interfaces.IDiscussionSettings" field="moderation_enabled">
+    <value>True</value>
+  </record>
+</registry>
